@@ -112,7 +112,7 @@ async def cancel(update: Update, context: CallbackContext) -> int:
 
 def main() -> None:
     global application
-    application = Application.builder().token("7883799672:AAFlBfG-ZfQduMUYfOOZDzbV-p4_0PPaJZw").build()
+    application = Application.builder().token("8372137251:AAFZhRDsvvM7DmoQfquZ_iAlqq-qd0Zs4Js").build()
     conv_handler = ConversationHandler(
         entry_points=[
             CommandHandler('add', add_task),
